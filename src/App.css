@@ -1,0 +1,62 @@
+body{
+  background-color: aqua;
+  
+  
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.App{
+  display: flex;
+  justify-content: center;
+}
+input{
+  height: 6vh;
+  border: 2px black solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 29vw;
+  padding-left: 10px;
+  font-family: cursive;
+
+}
+button{
+  height: 6.5vh;
+  border: none;
+  font-size: 1rem;
+  font-family: cursive;
+  width: 8vw;
+
+}
+button:hover{
+  background-color: rgb(211, 111, 111);
+}
+.list-wrapper{
+display: flex;
+align-items: center;
+margin-top: 2rem;
+}
+
+.delete-btn{
+  margin-left: 1rem;
+  border-radius: 10PX;
+  height: 4.5vh;
+  width: 7vw;
+  
+}
+
+.list{
+  font-size: 1.5rem;
+}
+
+#add-btn{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.task-div{
+  text-decoration: underline;
+  
+}
